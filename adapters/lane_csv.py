@@ -17,7 +17,7 @@ from evalcore import Case, Truth, digest_of
 
 ACCEPT_LANES = {"auto pass"}
 STRATUM_KEYS = ("area", "label", "method", "kind")
-DEFAULT_COLS = {"case": "case", "truth": "truth", "stratum": "stratum", "area": "council", "delivery": "delivery_file",
+DEFAULT_COLS = {"case": "case", "truth": "truth", "stratum": "stratum", "area": "area", "delivery": "delivery_file",
                 "source_id": "orig_oachargeid", "grade_file": "grade_file", "at": "", "note": "error", "ref": "ref"}
 
 
