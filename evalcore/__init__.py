@@ -17,3 +17,7 @@ from . import stats
 __all__ = ["Artefact", "Case", "Decision", "Truth", "digest_of", "now_iso", "TruthRegistry", "Benchmark",
            "Check", "Gate", "GateResult", "stats"]
 __version__ = "0.1.0"
+from .evidence import Evidence, EvidenceSet            # noqa: E402
+from .policy import Outcome, Policy, Rule              # noqa: E402
+from .calibration import Calibrator, selective         # noqa: E402
+__all__ += ["Evidence", "EvidenceSet", "Outcome", "Policy", "Rule", "Calibrator", "selective"]

@@ -12,3 +12,7 @@
 | Paired test, not two accuracies | McNemar on the same cases | 3/40 vs 7/40 was argued over for a day; on paired cases it was 4 discordant |
 | Wilson intervals on every rate | | "88% correct" on 25 pages was quoted without its 69–96 interval |
 | One JSON line per run | append-only log; the controller reads counts, not prose | gate results lived in a chat transcript |
+| Evidence families | corroboration counts independent families, not facts | flag precision went from 42% to 73% only once "independent evidence" was required; before that two model readings of one drawing counted as two |
+| Policy as a measured table | every rule a row with its accepted-wrong and sent-to-review-wrong cells | the lane logic was forty guards in one script; "why does this combination auto-pass" meant reading 520 lines |
+| Trail in the facts | a rule may ask whether a guard fired before it | the "evidence consistent" rescue had to know that no guard had sent the case back; in code it tested a substring of the `why` text |
+| Isotonic calibration, selective curve | probabilities from dev, reported with coverage | the "high band 88%" was one point on a curve nobody had drawn |
