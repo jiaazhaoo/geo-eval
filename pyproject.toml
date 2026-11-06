@@ -1,0 +1,12 @@
+[project]
+name = "geo-eval"
+version = "0.1.0"
+description = "Deciding when an AI's output can be acted on, and proving a change did not make that worse"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["evalcore", "adapters"]
