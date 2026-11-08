@@ -1,7 +1,13 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "geo-eval"
 version = "0.1.0"
 description = "Deciding when an AI's output can be acted on, and proving a change did not make that worse"
+readme = "README.md"
+license = {text = "Apache-2.0"}
 requires-python = ">=3.10"
 dependencies = []
 
